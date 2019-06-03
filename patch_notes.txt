@@ -1,0 +1,64 @@
+v0.04 :
+Added :
+- Multiple glass plane normals and specular added
+- Itemframe normals and specular
+- Tall grass normals and specular
+
+Changed :
+- IMPROVED MELON !!!
+- The CAKE specular
+- Prismarine albedo, normals and shininess
+- Lighted pumpkin
+- Redstone components normals
+- Most ore normals and shininess fixed to blend with stone
+- Stonebrick speculars changed
+- Reeds, waterlily, magma block, farmland
+
+Removed :
+- A few unchanged base color textures
+
+
+v0.03 :
+Added :
+- Endframe normals and specular, still work in progress
+- Jukebox specular added
+- Added end bricks specular
+
+Changed :
+- All quartz block a little less glossy
+- Smoothed diorite, granite and andesite are less glossy
+- Changed end bricks normals
+- Reverted redstone block to non-metal
+- Changed hopper shininess
+- Shinier brick
+- Clay looks less like sand and more like clay
+- Corrected cobblestone and mossy cobble shininess
+- Enchanting table's appearance aligned on diamond and obsidian.
+- Adjusted dry farmland and hay block shininess
+
+
+v0.02 :
+Changed :
+- Fixed all the doors normals
+- Fixed all the doors incorrect metalness
+- Added specular informations to all the doors
+- Made the clay wetter
+- Changed the glowstone emissivity
+- Changed the specular for ice and packed ice
+- Added normals for packed ice
+- Changed slime specular and normals
+- Fixed stone slab normals incorrectly curved
+
+
+V0.01 :
+Changed :
+- Less shiny cauldron
+- Shinier dirt
+- Emerald block are now less “metal”, with a hybrid dielectric-metal render.
+- Stronger normals on the inside of mushrooms
+- Shinier nether wart
+- Rougher netherrack
+- Smoother and flatter obsidian
+- Reworked quartz ore block to improve visibility in the nether
+- Changed back redstone block to metal
+- Subtle changes to sand and smoothed andesite/diorite/granite
