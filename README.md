@@ -60,13 +60,13 @@ Version Control software allows multiple authors to collaborate, and track all t
         - If you get an output that looks like `git version 2.21.0` then it is installed.
         - If you get an output like this `bash: git: command not found` (Different shells will appear different, but most will basically state that the command wasn't found.) Different Distros have different approaches to installing software, if you're having trouble look up "<insert Linux Distro Here> Install git"
     3. Once you have certified git is installed, move your terminal to the folder `~/.minecraft/resourcepacks` by running `cd ~/.minecraft/resourcepacks`
-    4. After you're in the right folder, run 'git clone https://github.com/Poudingue/Vanilla-Normals-Renewed-1.12.git` to clone the entire repository to your computer.
+    4. After you're in the right folder, run 'git clone https://github.com/Poudingue/Vanilla-Normals-Renewed.git` to clone the entire repository to your computer.
         - You will not need to zip the repo to have it work, Minecraft can handle unzipped texture packs.
 
 ##### Linux Git Update
     1. Please have installed the texture pack using the above guide. This won't work if you went on github, downloaded the Zip, and extracted it.
     2. Open up a terminal
-    3. Change to the TEXTURE PACK'S folder by running `cd ~/.minecraft/resourcepacks/Vanilla-Normals-Renewed-1.12`
+    3. Change to the TEXTURE PACK'S folder by running `cd ~/.minecraft/resourcepacks/Vanilla-Normals-Renewed`
     4. Run `git pull origin' to download the latest version.
         - You might want to relaunch Minecraft after this to make sure it uses the latest textures.
 
@@ -89,7 +89,7 @@ Version Control software allows multiple authors to collaborate, and track all t
     1. Please have installed the texture pack using the above guide. This won't work if you went on github, downloaded the Zip, and extracted it.
     2. Open up command prompt
         - Press the Windows key + "R", to open a run box, then type in cmd.exe, and press enter
-    3. Change to the TEXTURE PACK'S folder by running `cd %appdata%/.minecraft/resourcepacks/Vanilla-Normals-Renewed-1.12`
+    3. Change to the TEXTURE PACK'S folder by running `cd %appdata%/.minecraft/resourcepacks/Vanilla-Normals-Renewed`
     4. Then run `git pull origin' to download the latest version.
         - You might want to relaunch Minecraft after this to make sure it uses the latest textures.            
 
