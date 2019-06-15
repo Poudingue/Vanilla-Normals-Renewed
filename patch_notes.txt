@@ -1,3 +1,34 @@
+VNR 1.13 changelogs :
+
+v0.1 :
+Added :
+- Added stripped logs info
+- Squids and creeper normals and specular
+- Apple have normals/specular informations :3 (Also custom albedo so that it doesn't look like a cherry anymore)
+- Buckets normals and specular info
+- Golden apple, eggs, brown mushrooms
+- Ender perl and ender eye
+- Normals and specular for all stained glass
+- Armors normals and specular (to improve based on feedback)
+- Swords normals and specular (to improve based on feedback)
+
+Changed :
+- Changed all the logs to a more correct PBR approach, normals to give a curved rendering
+- Cactus
+- Lowered size of a lot of textures
+- Renamed textures incorrectly converted
+
+Removed :
+- A lot of albedo unchanged from vanilla textures
+
+
+v0.0 :
+Converted textures to 1.13 format
+
+
+
+VNR 1.12 changelogs :
+
 v0.04 :
 Added :
 - Multiple glass plane normals and specular added
