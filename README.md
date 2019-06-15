@@ -14,7 +14,7 @@ This texture pack is free for everyone to use! However if you wish to support me
 ## Copyright
 
 
-You can do whatever you want with my texture pack, screenshots, videos, modifications for personal use or redistribution, as long as you don't sell it and provide a link to this page.
+You can do whatever you want with my texture pack, screenshots, videos, modifications for personal use or redistribution, as long as you don't sell it and provide a link to this page or my Patreon page.
 
 ## Screenshots
 
@@ -93,8 +93,13 @@ Version Control software allows multiple authors to collaborate, and track all t
     4. Then run `git pull origin' to download the latest version.
         - You might want to relaunch Minecraft after this to make sure it uses the latest textures.            
 
-## Known Bugs (on SEUS PTGI E6)
-- Double doors do not correctly take into account direction of light (for the second door)
-- Parallax and normals behaves strangely on rotated textures (rails, for example)
-- Insufficiently smooth metals do not look like metals if full raytrace reflections are note active. (This is what causes stripes on iron blocks)
-- ???
+## Knowg Bugs on BSL 7.1
+- Some reflections on edges are sometimes directly reflecting the sky, looking incorrectly bright.
+
+## Known Bugs on SEUS Renewed
+- All reflections are smooth reflections. This strongly affects the materials appearances and can look wrong.
+
+## Known Bugs on SEUS PTGI E7.1
+- Insufficiently smooth metals do not look like metals if “full raytrace reflections” is not active. (This is what causes stripes on iron blocks)
+- Underwhelming normals cause surfaces to look more flat
+- Parallax Occlusion Mapping not supported yet
