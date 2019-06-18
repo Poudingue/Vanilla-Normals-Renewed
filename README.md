@@ -37,7 +37,7 @@ SEUS renewed heavily relies on Screen Space Reflections for this and don't take 
 - Joining the discord server is recommended for update notifications, support, and giving feedback.
   [Join Here](https://discord.gg/bn8S5Z3)
 
-### Old zip Based Method
+### Old zip-based Method
 
 1. On this page, click on «Clone or download», then «Download as ZIP»
 2. Go to the minecraft folder
@@ -45,7 +45,7 @@ SEUS renewed heavily relies on Screen Space Reflections for this and don't take 
     - For Linux, go to "~/.minecraft" in your file explorer.
     - For Mac OS, go to "~/Library/Application Support/minecraft" in your file explorer
 3. Go into the resourcepacks folder. Create it if it doesn't exist
-4. Extract the file you downloaded here
+4. Extract the file you downloaded (Extract here, not in a new folder)
 5. Select the right shader and resourcepack in minecraft options
 6. Enjoy !
 
