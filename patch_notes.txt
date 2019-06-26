@@ -1,5 +1,19 @@
 VNR 1.13 changelogs :
 
+v0.2 - The Glazed update part I :
+Added :
+- Part of the colored glazed terracotta ! With albedo tweaks, added normals and specular
+- Added all wood trapdoors normals and specular, and tweaked albedo
+- All colored terracotta and concrete/concrete powder
+- Shulker box normals and specular added
+- Removed hardcoded shading from smoothed stones albedo
+
+Changed :
+- Fixed and improved the missing doors
+- Other small tweaks
+
+
+
 v0.1 :
 Added :
 - Added stripped logs info
@@ -20,6 +34,7 @@ Changed :
 
 Removed :
 - A lot of albedo unchanged from vanilla textures
+
 
 
 v0.0 :
