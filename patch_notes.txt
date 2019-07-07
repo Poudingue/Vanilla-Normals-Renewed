@@ -1,5 +1,17 @@
 VNR 1.13 changelogs :
 
+v0.3 - The Glazed update part II :
+Added :
+- Remaining colored glazed terracotta !
+
+Changed :
+- Unified rails
+- Made overall smoother quartz
+- Changed polished andesite/diorite/granite to keep a slight shading in the albedo
+- Changed andesite/diorite/granite normals and specular
+
+
+
 v0.2 - The Glazed update part I :
 Added :
 - Part of the colored glazed terracotta ! With albedo tweaks, added normals and specular
