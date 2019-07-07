@@ -6,7 +6,11 @@ Added :
 
 Changed :
 - Unified rails
+- Fixed plastic-looking dark oak trapdoor and door.
 - Made overall smoother quartz
+- Fixed flickering magma
+- Rougher iron
+- Changed diamond to non-glowing
 - Changed polished andesite/diorite/granite to keep a slight shading in the albedo
 - Changed andesite/diorite/granite normals and specular
 
