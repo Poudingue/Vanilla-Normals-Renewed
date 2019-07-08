@@ -1,5 +1,21 @@
 VNR 1.13 changelogs :
 
+v0.4 - Corals update :
+Added :
+- Coral normals
+- Compass, emerald and clock normals and specular
+- Began sea turtle !
+- 1.13 textures to override 1.14 new textures
+- Grass normals and specular
+
+Changed :
+- Better iron, gold and diamond swords
+- Unified leaves
+- Tweaked oak and dark oak doors
+- Tweaked stone slabs
+
+
+
 v0.3 - The Glazed update part II :
 Added :
 - Remaining colored glazed terracotta !
@@ -32,10 +48,10 @@ Changed :
 
 v0.1 :
 Added :
-- Added stripped logs info
+- Added stripped logs
 - Squids and creeper normals and specular
 - Apple have normals/specular informations :3 (Also custom albedo so that it doesn't look like a cherry anymore)
-- Buckets normals and specular info
+- Buckets normals and specular
 - Golden apple, eggs, brown mushrooms
 - Ender perl and ender eye
 - Normals and specular for all stained glass
