@@ -2,7 +2,7 @@
 A shaders compatible minecraft texture pack, based on vanilla but with normals and proper glossiness information.
 This version (renewed) is made for PBR, but still a WORK IN PROGRESS, so you may encounter some textures with strange behavior.
 
-⚠️ THIS VERSION IS NOT COMPATIBLE FOR MINECRAFT 1.12 OR BELOW ⚠️
+**⚠️ THIS VERSION IS NOT COMPATIBLE FOR MINECRAFT 1.12 OR BELOW ⚠️**
 
 ## Description
 
