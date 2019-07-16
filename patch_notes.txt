@@ -1,6 +1,22 @@
 VNR changelogs :
 
-V1.1.0 - One big update
+V1.2.0 - 1.20 update part 1
+Added :
+- Bamboo block
+- Minecart
+
+Changed :
+- Updated blaze texture
+
+Fixed :
+- Beds and Shulker specular are now valid files
+- Corrected invalid normals
+- Added missing f0 info (activator rails, ancient debris, beacon, cartography table,
+- Corrected incorrect labPBR emissive textures
+- Mangrove trapdoor incorrect specular
+- Some texture size improved
+
+V1.1.0 - 1.20 update part 1
 Added :
 - Warped door, Mangrove door, Mangrove trapdoor
 - Sculk, sculk vein
