@@ -1,5 +1,18 @@
 VNR 1.13 changelogs :
 
+v0.5 - Final 1.13 update :
+Added :
+- Beds of all colors
+- Objects : Iron and golden lingots, best emerald
+- Equipment : Shield, horse armors
+- Animals : Silverfish, slime stuff, dolphin, blaze
+
+Changed :
+- Sandstone and snow changes. For now 1.13 textures, this will be separated into a separate pack when i'll add the 1.14 textures.
+- More small changes everywhere
+
+
+
 v0.4 - Corals update :
 Added :
 - Coral normals
