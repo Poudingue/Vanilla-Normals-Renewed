@@ -1,4 +1,20 @@
-VNR 1.13 changelogs :
+VNR changelogs :
+
+v0.6 - 1.14 update part One
+Added :
+- Bone block
+- Added back missing albedos
+
+Changed :
+- New stones, stonebricks, cobblestone and endstone
+- New emerald block, gold block, obsidian
+- New prismarine stuff
+- New glowstone
+- New watermelon
+- New piston and sticky piston
+- Updated numerous other textures to 1.14 new textures.
+
+
 
 v0.5 - Final 1.13 update (release) :
 Added :
