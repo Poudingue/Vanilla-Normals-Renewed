@@ -14,7 +14,7 @@ This texture pack is free for everyone to use! However if you wish to support me
 ## Copyright
 
 
-You can do whatever you want with my texture pack, screenshots, videos, modifications for personal use or redistribution, as long as you don't sell it and provide a link to this page or my Patreon page.
+You can do whatever you want with my texture pack, screenshots, videos, modifications for personal use or redistribution, as long as you don't sell it and provide a link to this page or my Patreon page. Oh, and also, don't mix it with Realistico. Dead serious.
 
 ## Screenshots
 
