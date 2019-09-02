@@ -1,5 +1,24 @@
 VNR changelogs :
 
+v0.7 - 1.14 update part Two
+Added :
+- Packed ice
+
+Changed :
+- Fixed cobblestone (and mossy) normals making a few pixels too dark
+- NEW MELON ! With updated normals and specular !!!
+- New cauldron textures and normals/specular
+- New ores with improved normals/specular
+- New logs (and stripped logs) textures
+- New leaves, with proper normals/specular
+- New quartz blocks, improved normals/specular
+- New TNT, Furnace, Red nether bricks, bookshelves, hay block, with new normals and specular
+- Changed emerald and diamond normals/specular
+- Better prismarine normals/specular
+- Improved bricks albedo
+
+
+
 v0.6 - 1.14 update part One
 Added :
 - Bone block
