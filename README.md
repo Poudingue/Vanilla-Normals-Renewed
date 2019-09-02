@@ -1,4 +1,4 @@
-# Vanilla-Normals-Renewed-1.13
+# Vanilla-Normals-Renewed
 A shaders compatible minecraft texture pack, based on vanilla but with normals and proper glossiness information.
 This version (renewed) is made for PBR, but still a WORK IN PROGRESS, so you may encounter some textures with strange behavior.
 
@@ -32,12 +32,12 @@ SEUS renewed heavily relies on Screen Space Reflections for this and don't take 
 
 ## Installation
 
-- Install a shader supporting normal and specular mapping. If you don't know which one, give this one a shot : https://sonicether.com/seus/ and if you want raytracing, it should also work properly with SEUS PTGI E7 : https://www.patreon.com/sonicether
+- Install a shader supporting normal and specular mapping. If you don't know which one, give this one a shot : https://sonicether.com/seus/ and if you want raytracing, it should also work properly with SEUS PTGI E9 : https://www.patreon.com/sonicether
 
 - Joining the discord server is recommended for update notifications, support, and giving feedback.
   [Join Here](https://discord.gg/bn8S5Z3)
 
-### Old zip-based Method
+### Old zip-based Method (if you don't know how to use git)
 
 1. On this page, click on «Clone or download», then «Download as ZIP»
 2. Go to the minecraft folder
@@ -99,7 +99,8 @@ Version Control software allows multiple authors to collaborate, and track all t
 ## Known Bugs on SEUS Renewed
 - All reflections are smooth reflections. This strongly affects the materials appearances and can look wrong.
 
-## Known Bugs on SEUS PTGI E7.1
+## Known Bugs on SEUS PTGI E9
 - Insufficiently smooth metals do not look like metals if “full raytrace reflections” is not active. (This is what causes stripes on iron blocks)
+- Screen-space reflection of metals appear black
 - Underwhelming normals cause surfaces to look more flat
 - Parallax Occlusion Mapping not supported yet
