@@ -8,6 +8,7 @@ Changed :
 - Fixed lit furnace
 - New swords textures and specular/normals
 - New emerald texture and specular/normals
+- New gold and iron ingots
 - New egg
 
 Removed :
