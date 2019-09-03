@@ -1,5 +1,21 @@
 VNR changelogs :
 
+v0.7.1 - furnace hotfix and stuff
+Added :
+- Diamond normals and specular
+
+Changed :
+- Fixed lit furnace
+- New swords textures and specular/normals
+- New emerald texture and specular/normals
+- New egg
+
+Removed :
+- Old apple and golden apple
+- Wrongly named “wood sword”
+
+
+
 v0.7 - 1.14 update part Two
 Added :
 - Packed ice
