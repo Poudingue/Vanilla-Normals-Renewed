@@ -14,7 +14,7 @@ This texture pack is free for everyone to use! However if you wish to support me
 ## Copyright
 
 
-You can do whatever you want with my texture pack, screenshots, videos, modifications for personal use or redistribution, as long as you don't sell it and provide a link to this page or my Patreon page. Oh, and also, don't mix it with Realistico. Dead serious.
+You can do whatever you want with my texture pack, screenshots, videos, modifications for personal use or redistribution, as long as you don't sell it and provide a link to this page or my Patreon page. Oh, and also, don't mix it with Realistico. Dead serious. Absolutely not a joke. This is not irony, I really insist. I will sue you. 
 
 ## Screenshots
 
@@ -23,12 +23,14 @@ You can do whatever you want with my texture pack, screenshots, videos, modifica
 Textures have bump mapping information, allowing parallax occlusion mapping and normal mapping.
 Smoothness information is very important for the credibility of materials too, especially when the sun lights it at grazing angles.
 
-![Normals and smoothness](https://user-images.githubusercontent.com/18035775/34640565-eb2fc134-f2f4-11e7-9d06-c615fb50aed1.png)
+![Normals and smoothness](https://user-images.githubusercontent.com/18035775/64910219-244f3800-d714-11e9-9101-7651afb13ced.png)
+Screenshot taken in SEUS renewed 1.0
 
 Metals and smooth materials now have the correct information to compute reflections.
 SEUS renewed heavily relies on Screen Space Reflections for this and don't take correctly roughness surfaces for it, so the reflections may be too shiny and imperfect. However using SEUS PTGI will provide Path-Traced reflections and indirect lighting, and correctly take into account roughness.
 
-![Metal and smooth materials](https://user-images.githubusercontent.com/18035775/34640564-eb1388de-f2f4-11e7-8597-e132e9cde2db.png)
+![Metal and smooth materials](https://user-images.githubusercontent.com/18035775/64910220-2618fb80-d714-11e9-9315-f0c6e72ff281.png)
+Screenshot taken in SEUS PTGI E9
 
 ## Installation
 
@@ -98,6 +100,7 @@ Version Control software allows multiple authors to collaborate, and track all t
 
 ## Known Bugs on SEUS Renewed
 - All reflections are smooth reflections. This strongly affects the materials appearances and can look wrong.
+- Metals with a low enough smoothness appear as dielectric.
 
 ## Known Bugs on SEUS PTGI E9
 - Insufficiently smooth metals do not look like metals if “full raytrace reflections” is not active. (This is what causes stripes on iron blocks)
