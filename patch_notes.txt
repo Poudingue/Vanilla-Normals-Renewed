@@ -1,5 +1,29 @@
 VNR changelogs :
 
+v0.8 - 1.14 update part Three
+Added :
+- Cartography table (albedo, normals and specular)
+- Composter (albedo, normals and specular)
+- Tools : Shovels
+- B stuff : Bamboo, barrel, bell and blue ice. Also brick item. And nether brick.
+- Random stuff : Sticks. Because this is very important.
+
+Changed :
+- New sandstones, with reworked normals and specular
+- New grass block side, path and snow too
+- Nicer looking clock, in REAL GOLD this time ! (New albedo, normals and specular)
+- New andesite, diorite and granite normals and specular (new specular also for polished versions)
+- New planks textures, normals and specular
+- New doors and trapdoors textures, I still have to rework the normals and specular
+- A lot of new textures : Cake, hopper, chorus plant/flower, farmland, cactus (cacti ?), carved pumpkin
+- Changed specular of the cauldron to not look weird in Seus Renewed (and other textures with a 0.5 glossiness threshold to apply reflection)
+
+Removed :
+- Bow textures, that should be redone
+- Different buckets, should add the new 1.14 ones instead
+
+
+
 v0.7.1 - furnace hotfix and stuff
 Added :
 - Diamond normals and specular
