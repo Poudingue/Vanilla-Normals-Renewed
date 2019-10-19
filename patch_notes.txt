@@ -1,6 +1,6 @@
 VNR changelogs :
 
-v0.8 - 1.14 update part Three
+v0.8 - 1.14 update part Three (release) :
 Added :
 - Cartography table (albedo, normals and specular)
 - Composter (albedo, normals and specular)
