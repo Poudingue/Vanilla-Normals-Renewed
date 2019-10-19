@@ -39,19 +39,20 @@ Screenshot taken in SEUS PTGI E9
 - Joining the discord server is recommended for update notifications, support, and giving feedback.
   [Join Here](https://discord.gg/bn8S5Z3)
 
-### Old zip-based Method (if you don't know how to use git)
+### BRAND NEW zip-based Method (if you don't know how to use git)
 
-1. On this page, click on «Clone or download», then «Download as ZIP»
+1. On this page, click on «Release», on the top of the screen.
+2. Pick the version you want and download the zip in the «assets» zone.
 2. Go to the minecraft folder
     - For windows, go to "%appdata%/.minecraft" on your start menu.
     - For Linux, go to "~/.minecraft" in your file explorer.
     - For Mac OS, go to "~/Library/Application Support/minecraft" in your file explorer
-3. Go into the resourcepacks folder. Create it if it doesn't exist
-4. Extract the file you downloaded (Extract here, not in a new folder)
-5. Select the right shader and resourcepack in minecraft options
+3. Go into the «resourcepacks» folder. Create it if it doesn't exist
+4. Put the zip you downloaded here.
+5. Select the right shader and resourcepack in minecraft options.
 6. Enjoy !
 
-### NEW GIT powered Install Method
+### GIT powered Install Method (
 
 Git is a version control software that github uses to manage all the code that they host, which can be used to make installation really easy.
 Version Control software allows multiple authors to collaborate, and track all the changes made, and who made what changes
@@ -84,7 +85,7 @@ Version Control software allows multiple authors to collaborate, and track all t
         3. Once it is installed, launch command prompt
             - Press the Windows key + "R", to open a run box, then type in cmd.exe, and press enter
         4. Change to the resourcepack folder using the command  `cd %AppData%/.minecraft/resourcepacks`
-        5. Clone the repository to your computer by running git clone https://github.com/Poudingue/Vanilla-Normals-Renewed-1.12.git
+        5. Clone the repository to your computer by running git clone https://github.com/Poudingue/Vanilla-Normals-Renewed.git
             - You will not need to zip the repo to have it work, Minecraft can handle unzipped texture packs.
 
 ##### Windows Git Update
