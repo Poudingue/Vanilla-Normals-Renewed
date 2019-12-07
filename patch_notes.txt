@@ -1,4 +1,11 @@
 VNR changelogs :
+v0.8.3 (WIP)
+Added :
+- Blast Furnace
+
+Changed :
+- Redstone lamp on/off : reworked albedo, normals and specular
+- Wool : reworked albedo and normals, added specular
 
 v0.8 - 1.14 update part Three (release) :
 Added :
