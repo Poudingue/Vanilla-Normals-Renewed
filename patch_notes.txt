@@ -1,15 +1,21 @@
 VNR changelogs :
-v0.8.3 (WIP)
+
+v0.8.4 (WIP) :
 Added :
 - Blast Furnace
+- Cartography table (albedo, normals and specular)
 
 Changed :
 - Redstone lamp on/off : reworked albedo, normals and specular
 - Wool : reworked albedo and normals, added specular
 
+Fixed :
+- Missing yellow terracotta normals
+
+
+
 v0.8 - 1.14 update part Three (release) :
 Added :
-- Cartography table (albedo, normals and specular)
 - Composter (albedo, normals and specular)
 - Tools : Shovels
 - B stuff : Bamboo, barrel, bell and blue ice. Also brick item. And nether brick.
