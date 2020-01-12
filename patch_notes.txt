@@ -1,10 +1,11 @@
 VNR changelogs :
 
-v0.8.6 (WIP) :
+v0.8.7 (WIP) :
 Added :
 - Blast Furnace
 - Cartography table
 - Stonecutter
+- Tools (pickaxe)
 
 Changed :
 - Redstone lamp on/off : reworked albedo, normals and specular
