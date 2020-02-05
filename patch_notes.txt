@@ -1,13 +1,13 @@
 VNR changelogs :
 
-v0.8.8 (WIP) :
+v0.9 :
 Added :
-- Blast Furnace
-- Cartography table
-- Stonecutter
-- Tools (pickaxe, axe)
+- Lanterns
+- Blast Furnace, Cartography table, Stonecutter
+- Tools (pickaxe, axe, hoe)
 
 Changed :
+- Reworked swords
 - Redstone lamp on/off : reworked albedo, normals and specular
 - Wool : reworked albedo and normals, added specular
 - Reworked mycelium
