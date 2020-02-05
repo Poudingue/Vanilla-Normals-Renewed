@@ -1,6 +1,6 @@
 VNR changelogs :
 
-v0.9 :
+v0.9 - 1.14 update part Four :
 Added :
 - Lanterns
 - Blast Furnace, Cartography table, Stonecutter
@@ -19,7 +19,7 @@ Fixed :
 
 
 
-v0.8 - 1.14 update part Three (release) :
+v0.8 - 1.14 update part Three :
 Added :
 - Composter (albedo, normals and specular)
 - Tools : Shovels
