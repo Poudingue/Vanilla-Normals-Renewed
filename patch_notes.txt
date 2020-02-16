@@ -1,5 +1,21 @@
 VNR changelogs :
 
+V0.9.1 - 1.14 update part Five :
+Added :
+- Fletching table, campfire
+
+Changed :
+- Reworked multiple normals to remove incorrect baked-in ao in :
+  - All logs and stripped logs
+  - Cactus, barrels
+- Added emissive compatibility for labPBR for multiple textures :
+  - Jack-o-lantern
+  - Activator rail
+  - Blast furnace
+
+Removed :
+- Unused normals texture
+
 v0.9 - 1.14 update part Four :
 Added :
 - Lanterns
