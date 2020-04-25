@@ -1,11 +1,12 @@
 VNR changelogs :
 
-V0.9.2 - 1.14 update part Five :
+V0.9.3 - 1.14 update part Five :
 Added :
-- Fletching table, campfire, smoker
+- Fletching table, campfire, smoker, smithing table
 
 Changed :
 - Reworked wet and dry sponge (albedo, normals, specular)
+- Reworked anvils
 - Reworked multiple normals to remove incorrect baked-in ao in :
   - All logs and stripped logs
   - Cactus, barrels
