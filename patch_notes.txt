@@ -1,12 +1,17 @@
 VNR changelogs :
 
-V0.9.3 - 1.14 update part Five :
+V0.9.4 - 1.14 update part Five :
 Added :
+- Iron Golem
 - Fletching table, campfire, smoker, smithing table
+- Lectern, loom, lectern, scaffolding
+- Torch
 
 Changed :
+- Reworked dried kelp
 - Reworked wet and dry sponge (albedo, normals, specular)
 - Reworked anvils
+- Reworked enchanting table
 - Reworked multiple normals to remove incorrect baked-in ao in :
   - All logs and stripped logs
   - Cactus, barrels
@@ -14,6 +19,9 @@ Changed :
   - Jack-o-lantern
   - Activator rail
   - Blast furnace
+
+Fixed :
+- Incorrect End portal file names
 
 Removed :
 - Unused normals texture
