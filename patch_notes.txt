@@ -1,5 +1,18 @@
 VNR changelogs :
 
+V0.9.6 - Beyond 1.14 :
+Added :
+- Nether blocks :
+  Crimson nylium, crying obsidian, nether gold ore and shroomlight
+  Soul soil, weeping vines
+  Warped nylium, stem, wart
+  Blackstone, Basalt
+  
+Changed :
+- Glowstone emissive
+
+
+
 V0.9.4 - 1.14 update part Five :
 Added :
 - Iron Golem
@@ -25,6 +38,8 @@ Fixed :
 
 Removed :
 - Unused normals texture
+
+
 
 v0.9 - 1.14 update part Four :
 Added :
