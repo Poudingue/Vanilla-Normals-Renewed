@@ -6,10 +6,16 @@ Added :
   Crimson nylium, crying obsidian, nether gold ore and shroomlight
   Soul soil, weeping vines
   Warped nylium, stem, wart
-  Blackstone, Basalt
-  
+  Blackstone, gilded blackstone and polished blackstone
+  Basalt, polished basalt
+- Spawner
+
 Changed :
 - Glowstone emissive
+- Soul soil reworked to better catch the light
+
+Removed :
+- Strange glossy slimes and magmacubes
 
 
 
