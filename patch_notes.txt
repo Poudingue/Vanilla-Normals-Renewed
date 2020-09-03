@@ -1,12 +1,12 @@
 VNR changelogs :
 
-V0.9.6 - Beyond 1.14 :
+V0.9.7 - Beyond 1.14 :
 Added :
 - Nether blocks :
   Crimson nylium, crying obsidian, nether gold ore and shroomlight
   Soul soil, weeping vines
   Warped nylium, stem, wart
-  Blackstone, gilded blackstone and polished blackstone
+  Blackstone, gilded blackstone, polished blackstone and blackstone bricks
   Basalt, polished basalt
 - Spawner
 
