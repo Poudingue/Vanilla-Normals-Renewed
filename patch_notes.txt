@@ -1,6 +1,6 @@
 VNR changelogs :
 
-V0.9.7 - Beyond 1.14 :
+V0.9.8 - Beyond 1.14 :
 Added :
 - Nether blocks :
   Crimson nylium, crying obsidian, nether gold ore and shroomlight
@@ -9,6 +9,8 @@ Added :
   Blackstone, gilded blackstone, polished blackstone and blackstone bricks
   Basalt, polished basalt
 - Spawner
+- A few missing 1.14 textures :
+  Concretes albedo, coral block albedo and specular, dropper, dispenser, tnt, glass and glass plane, chests...
 
 Changed :
 - Glowstone emissive
