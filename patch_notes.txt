@@ -1,6 +1,6 @@
 VNR changelogs :
 
-V0.9.8 - Beyond 1.14 :
+V0.9.9 - Beyond 1.14 :
 Added :
 - Nether blocks :
   Crimson nylium, crying obsidian, nether gold ore and shroomlight
@@ -13,8 +13,9 @@ Added :
   Concretes albedo, coral block albedo and specular, dropper, dispenser, tnt, glass and glass plane, chests...
 
 Changed :
-- Glowstone emissive
+- Lots of emissive for labPBR compatibility
 - Soul soil reworked to better catch the light
+- Reworked dropper and dispenser
 
 Removed :
 - Strange glossy slimes and magmacubes
