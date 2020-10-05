@@ -94,17 +94,4 @@ Version Control software allows multiple authors to collaborate, and track all t
         - Press the Windows key + "R", to open a run box, then type in cmd.exe, and press enter
     3. Change to the TEXTURE PACK'S folder by running `cd %appdata%/.minecraft/resourcepacks/Vanilla-Normals-Renewed`
     4. Then run `git pull origin' to download the latest version.
-        - You might want to relaunch Minecraft after this to make sure it uses the latest textures.            
-
-## Knowg Bugs on BSL 7.1
-- Some reflections on edges are sometimes directly reflecting the sky, looking incorrectly bright.
-
-## Known Bugs on SEUS Renewed
-- All reflections are smooth reflections. This strongly affects the materials appearances and can look wrong.
-- Metals with a low enough smoothness appear as dielectric.
-
-## Known Bugs on SEUS PTGI E9
-- Insufficiently smooth metals do not look like metals if “full raytrace reflections” is not active. (This is what causes stripes on iron blocks)
-- Screen-space reflection of metals appear black
-- Underwhelming normals cause surfaces to look more flat
-- Parallax Occlusion Mapping not supported yet
+        - You might want to relaunch Minecraft after this to make sure it uses the latest textures.
