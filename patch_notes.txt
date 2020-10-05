@@ -16,6 +16,7 @@ Changed :
 - Lots of emissive for labPBR compatibility
 - Soul soil reworked to better catch the light
 - Reworked dropper and dispenser
+- Buggy chest
 
 Removed :
 - Strange glossy slimes and magmacubes
