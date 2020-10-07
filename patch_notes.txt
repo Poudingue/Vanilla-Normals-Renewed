@@ -1,5 +1,30 @@
 VNR changelogs :
 
+V1.0.0 - 1.16 format
+Added :
+- More nether blocks :
+  Crimson planks, warped planks, stripped crimson and warped stem
+  Chiseled and cracked nether bricks
+  Soul lantern and soul torch
+- All command blocks textures, brand new albedo, normals and specular.
+- Brewing stand base albedo, normals and specular
+- Quartz brick, end rod
+
+Changed :
+- Chiseled quartz block, reduced baked-in ao, added Pom
+- Sea lantern, now with pom and some non-emissive frame
+
+Fixed :
+- New chest texture format
+- Lantern/Soul lantern emissive texture now correct
+- Missing albedo : crimson stem, warped stem, sea lantern, shulker box...
+- Missing normals : cauldron bottom, smooth quartz
+- Missing specular : dead bush, yellow bed
+
+Removed :
+- Christmas chest textures
+
+
 V0.9.9 - Beyond 1.14 :
 Added :
 - Nether blocks :
