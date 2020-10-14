@@ -1,9 +1,12 @@
 VNR changelogs :
 
-V1.0.0 - 1.16 format
+V1.0.1 - 1.16 format
 Added :
+- Honey block, honeycomb, target block, lodestone, netherite block
 - More nether blocks :
+  Ancient debris
   Crimson planks, warped planks, stripped crimson and warped stem
+  Crimson door, trapdoor, warped trapdoor
   Chiseled and cracked nether bricks
   Soul lantern and soul torch
 - All command blocks textures, brand new albedo, normals and specular.
@@ -11,21 +14,27 @@ Added :
 - Quartz brick, end rod
 
 Changed :
+- Cleaner normals for gold block and diamond block
 - Chiseled quartz block, reduced baked-in ao, added Pom
 - Sea lantern, now with pom and some non-emissive frame
+- More subtle normals/pom for the blast furnace
+- Adjusted dark oak door and trapdoor albedo
 
 Fixed :
+- Reduced the size of animated textures
 - New chest texture format
 - Lantern/Soul lantern emissive texture now correct
-- Missing albedo : crimson stem, warped stem, sea lantern, shulker box...
-- Missing normals : cauldron bottom, smooth quartz
+- Correct emissive textures for furnace/blast furnace
+- Fixed concretes and vines that with incorrect labPBR emissives
+- Missing albedo   : crimson stem, warped stem, sea lantern, shulker box...
+- Missing normals  : cauldron bottom, smooth quartz
 - Missing specular : dead bush, yellow bed
 
 Removed :
 - Christmas chest textures
 
 
-V0.9.9 - Beyond 1.14 :
+V0.9.9.9 - Beyond 1.14 :
 Added :
 - Nether blocks :
   Crimson nylium, crying obsidian, nether gold ore and shroomlight
