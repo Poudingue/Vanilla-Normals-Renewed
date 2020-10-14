@@ -1,6 +1,6 @@
 VNR changelogs :
 
-V1.0.1 - 1.16 format
+V1.0.1 - 1.16
 Added :
 - Honey block, honeycomb, target block, lodestone, netherite block
 - More nether blocks :
@@ -25,7 +25,7 @@ Fixed :
 - New chest texture format
 - Lantern/Soul lantern emissive texture now correct
 - Correct emissive textures for furnace/blast furnace
-- Fixed concretes and vines that with incorrect labPBR emissives
+- Fixed concretes and vines with incorrect labPBR emissives
 - Missing albedo   : crimson stem, warped stem, sea lantern, shulker box...
 - Missing normals  : cauldron bottom, smooth quartz
 - Missing specular : dead bush, yellow bed
