@@ -1,7 +1,9 @@
 VNR changelogs :
 
-V1.0.1 - 1.16
+V1.0.2 - 1.16 + emissives update
+
 Added :
+- Command blocks, chain command block and repeating command block (with emissives)
 - Honey block, honeycomb, target block, lodestone, netherite block
 - More nether blocks :
   Ancient debris
@@ -9,28 +11,32 @@ Added :
   Crimson door, trapdoor, warped trapdoor
   Chiseled and cracked nether bricks
   Soul lantern and soul torch
-- All command blocks textures, brand new albedo, normals and specular.
 - Brewing stand base albedo, normals and specular
 - Quartz brick, end rod
+- Frosted ice (also remade simple ice)
 
 Changed :
+- Better normals for nether quartz ore, added pom to soul sand
 - Cleaner normals for gold block and diamond block
 - Chiseled quartz block, reduced baked-in ao, added Pom
-- Sea lantern, now with pom and some non-emissive frame
+- Sea lantern, now with Pom and some non-emissive frame
+- Magma block Pom
 - More subtle normals/pom for the blast furnace
-- Adjusted dark oak door and trapdoor albedo
+- Adjusted albedo for cobblestone, oak door and trapdoor, polished blackstone
 
 Fixed :
 - Reduced the size of animated textures
 - New chest texture format
-- Lantern/Soul lantern emissive texture now correct
-- Correct emissive textures for furnace/blast furnace
+- Lantern/Soul lantern/Soul fire emissive texture now correct
+- Correct emissive textures for furnace/blast furnace, torch, redstone torch, soul torch (working better with mollyVX emissives)
 - Fixed concretes and vines with incorrect labPBR emissives
+- Fixed incorrect normals for grindstone
 - Missing albedo   : crimson stem, warped stem, sea lantern, shulker box...
 - Missing normals  : cauldron bottom, smooth quartz
 - Missing specular : dead bush, yellow bed
 
 Removed :
+- Glass textures (causing connected textures to not work)
 - Christmas chest textures
 
 
