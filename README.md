@@ -1,8 +1,8 @@
 # Vanilla-Normals-Renewed
 A shaders compatible minecraft texture pack, based on vanilla but with normals and proper glossiness information.
-This version (renewed) is made for PBR, but still a WORK IN PROGRESS, so you may encounter some textures with strange behavior.
+This resourcepack is compatible with both the "oldPBR" and "labPBR" standards, and should work correctly with most shaders.
 
-**⚠️ THIS VERSION IS NOT COMPATIBLE FOR MINECRAFT 1.12 OR BELOW ⚠️**
+**⚠️ This version is made for Minecraft 1.16 and above ⚠️**
 
 ## Description
 
@@ -12,7 +12,6 @@ So I decided to make my own, but based on vanilla textures.
 This texture pack is free for everyone to use! However if you wish to support me, you can join my Patreon : https://www.patreon.com/Poudingue
 
 ## Copyright
-
 
 You can do whatever you want with my texture pack, screenshots, videos, modifications for personal use or redistribution, as long as you don't sell it and provide a link to this page or my Patreon page. Oh, and also, don't mix it with Realistico. Dead serious. Absolutely not a joke. This is not irony, I really insist. I will sue you. 
 
@@ -34,7 +33,7 @@ Screenshot taken in SEUS PTGI E9
 
 ## Installation
 
-- Install a shader supporting normal and specular mapping. If you don't know which one, give this one a shot : https://sonicether.com/seus/ and if you want raytracing, it should also work properly with SEUS PTGI E9 : https://www.patreon.com/sonicether
+- Install a shader supporting normal and specular mapping. If you don't know which one, give this one a shot : https://sonicether.com/seus/ and if you want raytracing, it should also work properly with SEUS PTGI HRR : https://www.patreon.com/sonicether
 
 - Joining the discord server is recommended for update notifications, support, and giving feedback.
   [Join Here](https://discord.gg/bn8S5Z3)
@@ -50,7 +49,8 @@ Screenshot taken in SEUS PTGI E9
 3. Go into the «resourcepacks» folder. Create it if it doesn't exist
 4. Put the zip you downloaded here.
 5. Select the right shader and resourcepack in minecraft options.
-6. Enjoy !
+6. (for PTGI and other shaderpacks needing resolution adjustment) : set "Texture resolution" to ×16
+7. Enjoy !
 
 ### GIT powered Install Method (
 

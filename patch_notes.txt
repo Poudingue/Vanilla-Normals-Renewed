@@ -1,10 +1,27 @@
 VNR changelogs :
 
+
+V1.0.3 - labPBR update 1
+
+Added :
+- labPBR specular value to a lot of blocks :
+  Wood stuff : All doors and trapdoors, planks, logs, stripped logs...
+  Stone stuff : All polished and unpolished stones, stonebricks, all ores
+  Precious : All quartz blocks, lapis block, diamond block,
+  Misc : Campfire, stonecutter, and probably stuff that I forgot
+- Ensured correct emissives (oldPBR AND labPBR) :
+  all the torches, shroomlight, iron golem eyes, campfire
+
+Fixed :
+- Iron golem are now working again !
+
+
 V1.0.2 - 1.16 + emissives update
 
 Added :
 - Command blocks, chain command block and repeating command block (with emissives)
 - Honey block, honeycomb, target block, lodestone, netherite block
+- Animated nether portal block
 - More nether blocks :
   Ancient debris
   Crimson planks, warped planks, stripped crimson and warped stem
@@ -16,6 +33,8 @@ Added :
 - Frosted ice (also remade simple ice)
 
 Changed :
+- More colourfull tinted glass
+- Correct emissives for all types of torches
 - Better normals for nether quartz ore, added pom to soul sand
 - Cleaner normals for gold block and diamond block
 - Chiseled quartz block, reduced baked-in ao, added Pom
@@ -31,9 +50,10 @@ Fixed :
 - Correct emissive textures for furnace/blast furnace, torch, redstone torch, soul torch (working better with mollyVX emissives)
 - Fixed concretes and vines with incorrect labPBR emissives
 - Fixed incorrect normals for grindstone
-- Missing albedo   : crimson stem, warped stem, sea lantern, shulker box...
-- Missing normals  : cauldron bottom, smooth quartz
-- Missing specular : dead bush, yellow bed
+- Missing albedo    : crimson stem, warped stem, sea lantern, shulker box...
+- Missing normals   : cauldron bottom, smooth quartz
+- Missing specular  : dead bush, yellow bed
+- Missing emissives : All torches, beacon
 
 Removed :
 - Glass textures (causing connected textures to not work)
