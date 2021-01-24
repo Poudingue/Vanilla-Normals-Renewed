@@ -1,5 +1,13 @@
 VNR changelogs :
 
+V1.0.4 - Items
+Added :
+- Item for armors are now present (leather, iron, gold, diamond and netherite)
+- Horse armors too
+
+Fixed :
+- Buckets now in the correct folder :)
+
 
 V1.0.3 - labPBR update 1
 
