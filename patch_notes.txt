@@ -2,11 +2,25 @@ VNR changelogs :
 
 V1.0.4 - Items
 Added :
+- labPBR specular values:
+  Lilypads, Dried kelp
+  Wool
+  Barrel, composter
+  Sandstone
+  All basalt, all blackstone, bedrock, all colors of concrete and concrete powder
+  All colors of terracotta and glazed terracotta
+Added :
 - Item for armors are now present (leather, iron, gold, diamond and netherite)
 - Horse armors too
 
+Changed :
+- Adjusted all tinted glass and glass specular
+- Changed orange and purple glazed terracotta design
+- Bedrock specular
+
 Fixed :
 - Buckets now in the correct folder :)
+- Glowing lilypads
 
 
 V1.0.3 - labPBR update 1
