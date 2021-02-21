@@ -1,6 +1,6 @@
 VNR changelogs :
 
-V1.0.4 - Items
+V1.0.4 - Items and more labPBR
 Added :
 - labPBR specular values:
   Lilypads, Dried kelp
@@ -16,6 +16,7 @@ Added :
 Changed :
 - Adjusted all tinted glass and glass specular
 - Changed orange and purple glazed terracotta design
+- Reworked door parallax
 - Bedrock specular
 
 Fixed :
