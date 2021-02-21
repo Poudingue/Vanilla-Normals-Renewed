@@ -20,6 +20,7 @@ Changed :
 - Bedrock specular
 
 Fixed :
+- ALL normals now respect the labPBR format !
 - Buckets now in the correct folder :)
 - Glowing lilypads
 
