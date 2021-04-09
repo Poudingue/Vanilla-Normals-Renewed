@@ -15,6 +15,7 @@ Added :
 
 Changed :
 - Reworked doors (Mainly jungle door, but also slight adjustments to oak and iron doors)
+- Redstone ore is now slightly emissive
 - Adjusted all tinted glass and glass specular
 - Changed orange and purple glazed terracotta design
 - Bedrock specular
