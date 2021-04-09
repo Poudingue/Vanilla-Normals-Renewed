@@ -1,6 +1,6 @@
 VNR changelogs :
 
-V1.0.4 - Items and more labPBR
+V1.0.4 - Items
 Added :
 - labPBR specular values:
   Lilypads, Dried kelp
@@ -14,13 +14,12 @@ Added :
 - Horse armors too
 
 Changed :
+- Reworked doors (Mainly jungle door, but also slight adjustments to oak and iron doors)
 - Adjusted all tinted glass and glass specular
 - Changed orange and purple glazed terracotta design
-- Reworked door parallax
 - Bedrock specular
 
 Fixed :
-- ALL normals now respect the labPBR format !
 - Buckets now in the correct folder :)
 - Glowing lilypads
 
