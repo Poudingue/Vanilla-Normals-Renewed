@@ -1,6 +1,6 @@
 VNR changelogs :
 
-V1.0.4 - labPBR update 2 - 754 normals updated for labPBR compatibility
+V1.0.4 - labPBR update 2 - 725 normals updated for labPBR compatibility
 Added :
 - labPBR specular values:
   Lilypads, Dried kelp
