@@ -1,6 +1,6 @@
 VNR changelogs :
 
-V1.0.4 - Items
+V1.0.4 - labPBR update 2 - 754 normals updated for labPBR compatibility
 Added :
 - labPBR specular values:
   Lilypads, Dried kelp
@@ -14,6 +14,7 @@ Added :
 - Horse armors too
 
 Changed :
+- Reworked normals for labPBR compatibility
 - Reworked doors (Mainly jungle door, but also slight adjustments to oak and iron doors)
 - Redstone ore is now slightly emissive
 - Adjusted all tinted glass and glass specular
