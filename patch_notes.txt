@@ -1,5 +1,10 @@
 VNR changelogs :
 
+V1.0.5 - 
+Changed :
+- Stone bricks and blackstone bricks pom adjusted
+- Slightly better labPBR normals
+
 V1.0.4 - labPBR update 2 - 725 normals updated for labPBR compatibility
 Added :
 - labPBR specular values:
