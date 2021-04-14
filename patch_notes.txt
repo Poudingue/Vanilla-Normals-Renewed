@@ -2,8 +2,10 @@ VNR changelogs :
 
 V1.0.5 - 
 Changed :
+- Totally reworked cobblestone Pom
 - Stone bricks and blackstone bricks pom adjusted
 - Slightly better labPBR normals
+- Removed any unused alpha channel in normal textures
 
 V1.0.4 - labPBR update 2 - 725 normals updated for labPBR compatibility
 Added :
