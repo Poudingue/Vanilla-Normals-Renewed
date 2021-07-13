@@ -1,6 +1,12 @@
 VNR changelogs :
 
-V1.0.5 - 
+
+V1.0.5 - 1.17 update
+Added :
+- Amethyst block, budding amethyst
+- Copper block, cut copper, and all oxidized/exposed/weathered variants
+- Deepslate blocks
+
 Changed :
 - Totally reworked cobblestone and mossy cobblestone Pom
 - Stone bricks and blackstone bricks pom adjusted
