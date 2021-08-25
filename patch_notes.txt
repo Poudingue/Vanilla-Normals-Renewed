@@ -1,5 +1,11 @@
 VNR changelogs :
 
+V1.0.6 - 1.17 update part 2
+Fixed :
+- Incorrectly named "exidized_cut_copper.png"
+- Dolphin now in the correct folder
+- Removed unused "dropper_front_horizontal" normal texture
+
 
 V1.0.5 - 1.17 update
 Added :
@@ -22,7 +28,6 @@ Added :
   Sandstone
   All basalt, all blackstone, bedrock, all colors of concrete and concrete powder
   All colors of terracotta and glazed terracotta
-Added :
 - Item for armors are now present (leather, iron, gold, diamond and netherite)
 - Horse armors too
 
