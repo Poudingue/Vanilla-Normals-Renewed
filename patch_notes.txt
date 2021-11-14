@@ -5,7 +5,7 @@ V1.0.6 - 1.17 update part 3
 Added :
 - Deepslate and deepslate_top
 - New ores (normal and deepslate versions) :
-  Diamond ore, Gold ore, 
+  Diamond ore, Gold ore, Emerald ore
 
 Fixed :
 - 78 "impossible normals" slightly corrected
