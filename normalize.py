@@ -59,8 +59,7 @@ def normalize(path, depth):
                         arr += 1
                         arr /= 2
 
-                        # Random dithering makes sure there’s no average deviation toward lower values.
-                        # Multiple application may get rid of difficult cases of impossible values
+                        # If dx or dy values deviate, it should be toward the center, not toward the extremes
                         arr[0:2] = 0.999 + arr[0:2] * (254 / 255)
 
                         arr = np.ndarray.astype(255 * arr, dtype=np.uint8)
