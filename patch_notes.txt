@@ -1,12 +1,14 @@
 VNR changelogs :
 
+
 V1.0.6 - 1.17 update part 3
 Added :
 - Deepslate and deepslate_top
 - New ores (normal and deepslate versions) :
-  Diamond ore, Gold ore
+  Diamond ore, Gold ore, 
 
 Fixed :
+- 78 "impossible normals" slightly corrected
 - Incorrectly named "exidized_cut_copper.png"
 - Dolphin now in the correct folder
 - Removed unused "dropper_front_horizontal" normal texture
@@ -23,6 +25,7 @@ Changed :
 - Stone bricks and blackstone bricks pom adjusted
 - Slightly better labPBR normals
 - Removed any unused alpha channel in normal textures
+
 
 V1.0.4 - labPBR update 2 - 725 normals updated for labPBR compatibility
 Added :
@@ -50,7 +53,6 @@ Fixed :
 
 
 V1.0.3 - labPBR update 1
-
 Added :
 - labPBR specular value to a lot of blocks :
   Wood stuff : All doors and trapdoors, planks, logs, stripped logs...

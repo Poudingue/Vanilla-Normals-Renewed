@@ -59,7 +59,8 @@ def normalize(path, depth):
                         arr += 1
                         arr /= 2
 
-                        # To avoid drift to negative values because of clamping (on red and green)
+                        # Random dithering makes sure there’s no average deviation toward lower values.
+                        # Multiple application may get rid of difficult cases of impossible values
                         arr[0:2] = 0.999 + arr[0:2] * (254 / 255)
 
                         arr = np.ndarray.astype(255 * arr, dtype=np.uint8)
