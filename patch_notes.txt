@@ -1,14 +1,14 @@
 VNR changelogs :
 
 
-V1.0.6 - 1.17 update part 3
+V1.0.6 - 1.17 update part 2
 Added :
 - Deepslate and deepslate_top
 - New ores (normal and deepslate versions) :
-  Diamond ore, Gold ore, Emerald ore
+  diamond, gold, emerald, copper, coal, redstone
 
 Fixed :
-- 78 "impossible normals" slightly corrected
+- Some impossible normals slightly corrected
 - Incorrectly named "exidized_cut_copper.png"
 - Dolphin now in the correct folder
 - Removed unused "dropper_front_horizontal" normal texture
