@@ -44,7 +44,7 @@ def normalize(path, depth):
                     # Keep original array for comparison
                     original_arr = arr
 
-                    arr = arr.astype(dtype=np.float) / 255
+                    arr = arr.astype(float) / 255
 
                     arr *= 2
                     arr -= 1
@@ -83,5 +83,7 @@ def normalize(path, depth):
 
 t0 = time()
 curr_path = os.path.abspath(".")
-total_nb = normalize(curr_path, depth=0)
+for ii in range(256):
+    print(f"Iteration {ii}")
+    total_nb = normalize(curr_path, depth=0)
 print("Finished, total of %s files repainted in %s seconds" % (total_nb, int(time() - t0)))

@@ -9,7 +9,7 @@ Added :
 - Raw gold block
 
 Fixed :
-- Some impossible normals slightly corrected
+- 78 normal files with some impossible values finally 100% corrected
 - Incorrectly named "exidized_cut_copper.png"
 - Dolphin now in the correct folder
 - Removed unused "dropper_front_horizontal" normal texture
