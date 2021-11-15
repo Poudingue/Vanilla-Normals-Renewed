@@ -6,6 +6,7 @@ Added :
 - Deepslate and deepslate_top
 - New ores (normal and deepslate versions) :
   diamond, gold, emerald, copper, coal, redstone
+- Raw gold block
 
 Fixed :
 - Some impossible normals slightly corrected
