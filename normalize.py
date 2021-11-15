@@ -60,7 +60,7 @@ def normalize(path, depth):
                         arr /= 2
 
                         # If dx or dy values deviate, it should be toward the center, not toward the extremes
-                        arr[:, :, 0:2] += random.random(shape=arr[:, :, 0:2]) / 255
+                        arr[:, :, 0:2] += np.random.rand(width, height, 2) / 255
 
                         arr = np.ndarray.astype(255 * arr, dtype=np.uint8)
                         if alpha8bit is not None:
