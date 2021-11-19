@@ -1,15 +1,17 @@
 VNR changelogs :
 
-
 V1.0.6 - 1.17 update part 2
 Added :
-- Deepslate, deepslate_top, deepslate bricks, cracked deepslate bricks, polished deepslate
 - New ores (normal and deepslate versions) :
   diamond, gold, emerald, copper, coal, redstone
+- Deepslate, deepslate_top, polished deepslate, chiseled deepslate
+  Deepslate bricks, cracked deepslate bricks, 
+  Deepslate tiles, cracked deepslate tiles, cobbled_deepslate
 - Raw gold block, raw iron block, and raw copper block
-- Moss block, powder snow, Dripstone, azalea leaves, flowering azalea leaves
+- Smooth basalt, moss block, powder snow, Dripstone, azalea leaves, flowering azalea leaves
 - Lightning rod, all dripstone tips
 - Candles (all colours)
+- Spyglass
 
 Changed :
 - Snow 
