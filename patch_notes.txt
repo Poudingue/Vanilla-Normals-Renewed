@@ -1,5 +1,11 @@
 VNR changelogs :
 
+V1.0.7 - 1.17 update part 3
+
+Fixed :
+- Incorrect quartz block normals
+
+
 V1.0.6 - 1.17 update part 2
 Added :
 - New ores (normal and deepslate versions) :
@@ -14,7 +20,7 @@ Added :
 - Spyglass
 
 Changed :
-- Snow 
+- Snow
 
 Fixed :
 - 78 normal files with some impossible values finally 100% corrected
