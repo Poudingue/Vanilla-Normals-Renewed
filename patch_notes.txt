@@ -3,11 +3,13 @@ VNR changelogs :
 V1.0.7 - 1.17 update part 3
 
 Changed :
+- Shulker boxes specular
 - Optimized size of the resourcepack, removed unused alpha channels
 
 Fixed :
-- Incorrect quartz block normals
-- Incorrect colored glass panes normals
+- Missing f0 values (clock, compass)
+- Missing stone hoe specular info
+- Some normals (quartz block, colored glass panes)
 
 
 V1.0.6 - 1.17 update part 2

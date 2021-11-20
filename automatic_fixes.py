@@ -21,8 +21,10 @@ def correct_resourcepack(path, depth):
         for item in os.listdir(path):
             file_path = os.path.join(path, item)
             if os.path.isdir(file_path):
-                #if item not in ["colormap", "effect", "gui", "font", ".git"]:
-                local_nb += correct_resourcepack(file_path, depth + 1)
+                if item not in [
+                    #"colormap", "effect", "gui", "font",
+                    ".git"]:
+                    local_nb += correct_resourcepack(file_path, depth + 1)
                 continue
 
             elif os.path.isfile(file_path):
@@ -30,6 +32,7 @@ def correct_resourcepack(path, depth):
                 extension = '.'.join(item.split('.')[1:])
                 if extension != "png":
                     continue
+
                 # Propagate normals and specular values
                 if "lime" in filename:
                     if propagate_colored_normals_and_specular(file_path):
@@ -41,8 +44,9 @@ def correct_resourcepack(path, depth):
                 if filename.endswith("_n"):
                     if correct_normals(file_path):
                         local_nb += 1
-                else:
-                    pass
+                # Specular : Notify missing f0 values
+                if filename.endswith("_s"):
+                    notice_missing_f0(file_path)
 
     return local_nb
 
@@ -56,25 +60,36 @@ def propagate_colored_normals_and_specular(file_path):
 
     filename = filename.replace("_n", "").replace("_s", "")
     # Don’t propagate normals and specular for texture changing depending on colors
-    if filename not in ["lime_dye", "lime_glazed_terracotta"]:
+    if filename in ["lime_dye", "lime_glazed_terracotta", "slime", "slime_block"]:
         return False
 
-    img = Image.open(file_path)
-    # Save once, then just copy the file
+    # Just copy the file
+    changed = False
     for color in COLORS:
-        new_path = file_path.replace("lime", color)
+        folder, file = os.path.split(file_path)
+        new_path = os.path.join(folder, file.replace("lime", color))
         # If the file is exactly the same, continue
         if os.path.isfile(new_path):
             if filecmp.cmp(file_path, new_path):
                 continue
         print(f"Saved {new_path}")
         copyfile(file_path, new_path)
+        changed = True
+    return changed
+
+
+def notice_missing_f0(file_path):
+    img = Image.open(file_path)
+    if img.mode == "P":
+        img = img.convert("RGBA")
+    arr = np.asarray(img)
+    arr_f0 = arr[:, :, 1]
+    if (arr_f0 == 0).any():
+        print(f"Missing f0 for {file_path}")
 
 
 def remove_useless_alpha(file_path):
     img = Image.open(file_path)
-    if img.mode == "P":
-        img = img.convert("RGBA")
     if img.mode != "RGBA":
         return False
     arr = np.asarray(img)
