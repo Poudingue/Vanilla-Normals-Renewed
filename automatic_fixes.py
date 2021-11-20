@@ -1,8 +1,15 @@
+import filecmp
 import os
+from shutil import copyfile
 from time import time, sleep
 
 import numpy as np
 from PIL import Image
+
+# All the colors (other than lime)
+COLORS = [
+    "black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray",
+    "magenta", "orange", "pink", "purple", "red", "white", "yellow"]
 
 
 def correct_resourcepack(path, depth):
@@ -12,27 +19,56 @@ def correct_resourcepack(path, depth):
             return
 
         for item in os.listdir(path):
-            full_path = os.path.join(path, item)
-            if os.path.isdir(full_path):
+            file_path = os.path.join(path, item)
+            if os.path.isdir(file_path):
                 #if item not in ["colormap", "effect", "gui", "font", ".git"]:
-                local_nb += correct_resourcepack(full_path, depth + 1)
+                local_nb += correct_resourcepack(file_path, depth + 1)
                 continue
 
-            elif os.path.isfile(full_path):
+            elif os.path.isfile(file_path):
                 filename = item.split(".")[0]
                 extension = '.'.join(item.split('.')[1:])
                 if extension != "png":
                     continue
-                # Normals
-                if remove_useless_alpha(full_path):
+                # Propagate normals and specular values
+                if "lime" in filename:
+                    if propagate_colored_normals_and_specular(file_path):
+                        local_nb += len(COLORS)
+                # Remove unused alpha
+                if remove_useless_alpha(file_path):
                     local_nb += 1
+                # Normals correction
                 if filename.endswith("_n"):
-                    if correct_normals(full_path):
+                    if correct_normals(file_path):
                         local_nb += 1
                 else:
                     pass
 
     return local_nb
+
+
+def propagate_colored_normals_and_specular(file_path):
+    # Don’t keep the extension
+    filename = os.path.basename(file_path).split(".")[0]
+    # We only propagate normals and specular
+    if filename.split("_")[-1] not in ["n", "s"]:
+        return False
+
+    filename = filename.replace("_n", "").replace("_s", "")
+    # Don’t propagate normals and specular for texture changing depending on colors
+    if filename not in ["lime_dye", "lime_glazed_terracotta"]:
+        return False
+
+    img = Image.open(file_path)
+    # Save once, then just copy the file
+    for color in COLORS:
+        new_path = file_path.replace("lime", color)
+        # If the file is exactly the same, continue
+        if os.path.isfile(new_path):
+            if filecmp.cmp(file_path, new_path):
+                continue
+        print(f"Saved {new_path}")
+        copyfile(file_path, new_path)
 
 
 def remove_useless_alpha(file_path):
@@ -56,7 +92,7 @@ def remove_useless_alpha(file_path):
         print("No need for alpha channel, everything is at 255")
         arr = arr[:, :, :3]
         print(f"Changed and saved {file_path}")
-        # Image.fromarray(arr_normal).save(full_path, optimize=True)
+        Image.fromarray(arr).save(file_path, optimize=True)
         return True
     return False
 
@@ -99,14 +135,17 @@ def correct_normals(file_path):
             print(f"Changed and saved {file_path}")
             print("Proportion incorrect normals : %.2f%%" % proportion_incorrect)
             print(f"{np.count_nonzero(arr_normal != original_arr)} values changed")
-            #Image.fromarray(arr_normal).save(full_path, optimize=True)
+            Image.fromarray(arr).save(file_path, optimize=True)
         return True
     return False
 
 
-t0 = time()
 curr_path = os.path.abspath(".")
-for ii in range(256):
-    print(f"Iteration {ii}")
+
+print(f"Fixing resourcepack at path {curr_path}")
+while True:
+    t0 = time()
     total_nb = correct_resourcepack(curr_path, depth=0)
-print(f"Finished, total of {total_nb} files repainted in {int(time() - t0)} seconds")
+    print(f"Finished, total of {total_nb} files repainted in {int(time() - t0)} seconds")
+    if total_nb == 0:
+        break

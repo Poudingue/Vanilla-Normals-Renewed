@@ -2,8 +2,12 @@ VNR changelogs :
 
 V1.0.7 - 1.17 update part 3
 
+Changed :
+- Optimized size of the resourcepack, removed unused alpha channels
+
 Fixed :
 - Incorrect quartz block normals
+- Incorrect colored glass panes normals
 
 
 V1.0.6 - 1.17 update part 2
