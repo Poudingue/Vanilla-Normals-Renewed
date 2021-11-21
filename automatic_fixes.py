@@ -22,7 +22,8 @@ def correct_resourcepack(path, depth):
             file_path = os.path.join(path, item)
             if os.path.isdir(file_path):
                 if item not in [
-                    #"colormap", "effect", "gui", "font",
+                    "colormap", "effect", "gui", "font",
+                    "item", "entity",
                     ".git"]:
                     local_nb += correct_resourcepack(file_path, depth + 1)
                 continue
@@ -44,9 +45,11 @@ def correct_resourcepack(path, depth):
                 if filename.endswith("_n"):
                     if correct_normals(file_path):
                         local_nb += 1
+                    notice_zero_alpha(file_path)
                 # Specular : Notify missing f0 values
                 if filename.endswith("_s"):
                     notice_missing_f0(file_path)
+                    notice_zero_alpha(file_path)
 
     return local_nb
 
@@ -72,13 +75,15 @@ def propagate_colored_normals_and_specular(file_path):
         if os.path.isfile(new_path):
             if filecmp.cmp(file_path, new_path):
                 continue
+            os.remove(new_path)
+        os.symlink(file_path, new_path)
         print(f"Saved {new_path}")
-        copyfile(file_path, new_path)
         changed = True
     return changed
 
 
 def notice_missing_f0(file_path):
+    # return
     img = Image.open(file_path)
     if img.mode == "P":
         img = img.convert("RGBA")
@@ -87,11 +92,24 @@ def notice_missing_f0(file_path):
     if (arr_f0 == 0).any():
         print(f"Missing f0 for {file_path}")
 
+def notice_zero_alpha(file_path):
+    # return
+    img = Image.open(file_path)
+    if img.mode == "RGB":
+        return
+    if img.mode == "P":
+        img = img.convert("RGBA")
+    arr = np.asarray(img)
+    alpha = arr[:, :, 3]
+    if (alpha == 0).any():
+        print(f"Alpha at zero for {file_path}")
+
 
 def remove_useless_alpha(file_path):
     img = Image.open(file_path)
     if img.mode != "RGBA":
         return False
+
     arr = np.asarray(img)
     if len(arr.shape) < 3:
         print(f"Is {file_path} that a b&w image ?")
