@@ -1,9 +1,24 @@
 VNR changelogs :
 
+V1.0.8 - 1.19 update part 1
+
+Added :
+- Missing 1.17 blocks :
+  Chiseled polished blackstone, tuff
+- Mud, Mud bricks, Rooted dirt
+- Mangrove log, stripped log, planks
+
+Fixed :
+- Missing f0 data :
+  Clay, Blast furnace
+- Incorrect stripped logs normals
+- Incorrect name for gold armor layer 2
+- 78 normals correctly fixed for labPBR compatibility
+
 V1.0.7 - 1.17 update part 3
 
 Added :
-- Missing specular values :
+- Missing specular data :
   Boats, stone hoe
 
 Changed :
