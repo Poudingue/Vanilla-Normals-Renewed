@@ -8,6 +8,9 @@ Added :
 - Missing 1.17 blocks :
   Chiseled polished blackstone, tuff
 
+Changed :
+- Updated vines to account for new textures
+
 Fixed :
 - Missing f0 data :
   Clay, Blast furnace
