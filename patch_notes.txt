@@ -3,10 +3,10 @@ VNR changelogs :
 V1.0.8 - 1.19 update part 1
 
 Added :
+- Mud, Mud bricks, Rooted dirt
+- Mangrove logs, planks, leaves, roots
 - Missing 1.17 blocks :
   Chiseled polished blackstone, tuff
-- Mud, Mud bricks, Rooted dirt
-- Mangrove log, stripped log, planks
 
 Fixed :
 - Missing f0 data :
