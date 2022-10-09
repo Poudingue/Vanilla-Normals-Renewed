@@ -16,7 +16,7 @@ Changed :
 
 Fixed :
 - Missing f0 data :
-  Clay, Blast furnace
+  Bookshelf, Bricks, Cactus, Calcite, Clay, Crying Obsidian, Blast furnace
 - Incorrect stripped logs normals
 - Incorrect name for gold armor layer 2
 - 78 normals correctly fixed for labPBR compatibility
