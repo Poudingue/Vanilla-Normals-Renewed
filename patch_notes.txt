@@ -21,6 +21,7 @@ Fixed :
 - Incorrect name for gold armor layer 2
 - 78 normals correctly fixed for labPBR compatibility
 
+
 V1.0.7 - 1.17 update part 3
 
 Added :
