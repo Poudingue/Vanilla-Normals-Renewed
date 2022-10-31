@@ -1,5 +1,18 @@
 VNR changelogs :
 
+V1.0.9 - Halloween mini-update
+
+Added :
+- Witch, cold, temperate and warm frogs
+
+Changed :
+- Reworked pumpkins and jack-o-lantern, including Subsurface scattering
+- Added subsurface scattering for candles
+
+Removed :
+- Incorrect squid textures
+
+
 V1.0.8 - 1.19 update part 1
 
 Added :
