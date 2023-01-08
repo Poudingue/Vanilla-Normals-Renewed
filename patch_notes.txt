@@ -1,5 +1,12 @@
 VNR changelogs :
 
+V1.1.0 - One big update
+Added :
+- Christmas chests
+
+Changed :
+- Fixed 590 normals
+
 V1.0.9 - Halloween mini-update
 
 Added :
