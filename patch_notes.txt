@@ -2,10 +2,12 @@ VNR changelogs :
 
 V1.1.0 - One big update
 Added :
+- Warped door, Mangrove door, Mangrove trapdoor
+- Sculk
 - Christmas chests
 
 Changed :
-- Fixed 590 normals
+- Fixed 600+ normals
 
 V1.0.9 - Halloween mini-update
 
