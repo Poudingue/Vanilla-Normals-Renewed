@@ -3,7 +3,9 @@ VNR changelogs :
 V1.1.0 - One big update
 Added :
 - Warped door, Mangrove door, Mangrove trapdoor
-- Sculk
+- Sculk, sculk vein
+- Amethyst buds (small, medium, large, cluster)
+- Dirt path
 - Christmas chests
 
 Changed :
