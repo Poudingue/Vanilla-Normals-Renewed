@@ -3,7 +3,9 @@ VNR changelogs :
 V1.2.0 - 1.20 update part 1
 Added :
 - Bamboo block
-- Minecart
+- Cherry log, planks
+- Froglights (ochre, pearlescent, verdant)
+- Banner, Flower pot, Item frame, Minecart
 
 Changed :
 - Updated blaze texture
@@ -11,7 +13,7 @@ Changed :
 Fixed :
 - Beds and Shulker specular are now valid files
 - Corrected invalid normals
-- Added missing f0 info (activator rails, ancient debris, beacon, cartography table,
+- Added missing f0 info (activator rails, ancient debris, beacon, cartography table, slime block,
 - Corrected incorrect labPBR emissive textures
 - Mangrove trapdoor incorrect specular
 - Some texture size improved
