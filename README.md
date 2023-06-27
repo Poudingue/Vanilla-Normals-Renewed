@@ -1,5 +1,5 @@
 # Vanilla-Normals-Renewed
-A shaders compatible minecraft texture pack, based on vanilla but with normals and proper glossiness information.
+A shaders compatible Minecraft texture pack, based on Vanilla but with normals and proper glossiness information.
 This resourcepack is compatible with both the "oldPBR" and "labPBR" standards, and should work correctly with most shaders.
 
 ⚠️ This version is made for Minecraft 1.16 and above ⚠️
@@ -9,7 +9,7 @@ This resourcepack is compatible with both the "oldPBR" and "labPBR" standards, a
 ## Description
 
 I didn't want any of those fancy high-resolution texture packs in order to enjoy normal mapping and specular highlights.
-So I decided to make my own, but based on vanilla textures.
+So I decided to make my own, but based on Vanilla textures.
 
 This texture pack is free for everyone to use! However if you wish to support me, you can join my Patreon : https://www.patreon.com/Poudingue
 
@@ -19,7 +19,7 @@ You can do whatever you want with my texture pack, screenshots, videos, modifica
 
 ## Screenshots
 
-⚠️ The screenshots provided here were made with SEUS renewed, an an old version of minecraft, the results will differ with other shaders ⚠️
+⚠️ The screenshots provided here were made with SEUS renewed, with an old version of Minecraft, the results will differ with other shaders ⚠️
 
 Textures have bump mapping information, allowing parallax occlusion mapping and normal mapping.
 Smoothness information is very important for the credibility of materials too, especially when the sun lights it at grazing angles.
